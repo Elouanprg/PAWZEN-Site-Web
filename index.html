@@ -348,6 +348,14 @@
       position: relative;
       overflow: hidden;
     }
+    .hero__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      position: relative;
+      z-index: 1;
+    }
     .hero__visual-circle::before {
       content: '';
       position: absolute;
@@ -1055,12 +1063,7 @@
         </div>
         <div class="hero__visual">
           <div class="hero__visual-circle">
-            <svg viewBox="0 0 200 200" width="280" height="280" style="opacity:0.15">
-              <path d="M100 20 C140 20 170 50 170 90 C170 150 140 180 100 180 C60 180 30 150 30 90 C30 50 60 20 100 20Z" fill="#93C5FD"/>
-              <circle cx="55" cy="45" r="22" fill="#93C5FD"/>
-              <circle cx="100" cy="30" r="20" fill="#93C5FD"/>
-              <circle cx="145" cy="45" r="22" fill="#93C5FD"/>
-            </svg>
+            <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80" alt="Cours de fitness en groupe sur tapis — PAWZEN Lagree Fitness Bordeaux" class="hero__img">
           </div>
         </div>
       </div>
